@@ -18,6 +18,7 @@
         "arrow-body-style": [0],
         "prefer-arrow-callback": [0],
         "no-console": "off",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "import/no-extraneous-dependencies": "off"
     }
 }
