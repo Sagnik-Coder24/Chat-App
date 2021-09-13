@@ -19,6 +19,7 @@
         "prefer-arrow-callback": [0],
         "no-console": "off",
         "no-unused-vars": "warn",
-        "import/no-extraneous-dependencies": "off"
+        "import/no-extraneous-dependencies": "off",
+        "react/jsx-indent": [0]
     }
 }
