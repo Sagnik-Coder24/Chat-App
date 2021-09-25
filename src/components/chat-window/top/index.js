@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useCurrentRoom } from '../../../context/current-room.context';
 import { useMediaQuery } from '../../../misc/custom-hooks';
 import RoomInfoBtnModal from './RoomInfoBtnModal';
+import EditRoomBtnDrawer from './EditRoomBtnDrawer';
 
 const Top = () => {
     const name = useCurrentRoom(v => v.name);
@@ -28,7 +29,7 @@ const Top = () => {
                 </h4>
 
                 <ButtonToolbar className="white-space-nowrap">
-                    todo
+                    <EditRoomBtnDrawer />
                 </ButtonToolbar>
             </div>
 
