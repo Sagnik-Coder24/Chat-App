@@ -22,6 +22,9 @@
         "import/no-extraneous-dependencies": "off",
         "react/jsx-indent": [0],
         "react/jsx-indent-props": [0],
-        "react/jsx-one-expression-per-line": [0]
+        "react/jsx-one-expression-per-line": [0],
+        "ignorePropertyModificationsForRegex": {
+            "props": [0]
+        }
     }
 }
