@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 export function getNameInitials(name) {
     const splitName = name.toUpperCase().split(' ');
 
@@ -57,6 +56,7 @@ export function groupBy(array, groupingKeyFn) {
         const groupingKey = groupingKeyFn(item);
 
         if (!result[groupingKey]) {
+            // eslint-disable-next-line no-param-reassign
             result[groupingKey] = [];
         }
 
