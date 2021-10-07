@@ -1,3 +1,4 @@
+import { FaInfoCircle } from 'react-icons/fa';
 import React, { memo } from 'react';
 import { Button, Modal } from 'rsuite';
 import { useCurrentRoom } from '../../../context/current-room.context';
@@ -11,7 +12,11 @@ const RoomInfoBtnModal = () => {
     return (
         <>
             <Button appearance="link" className="px-0" onClick={open}>
-                Room information
+                <FaInfoCircle
+                    size="1.5rem"
+                    title="Room Information"
+                    color="black"
+                />
             </Button>
             <Modal show={isOpen} onHide={close}>
                 <Modal.Header>

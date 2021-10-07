@@ -48,7 +48,7 @@ const SignIn = () => {
                                     color="blue"
                                     onClick={onFacebookSighIn}
                                 >
-                                    <Icon icon="facebook" />
+                                    <Icon icon="facebook" className="mr-2" />
                                     Continue with Facebook
                                 </Button>
 
@@ -57,7 +57,7 @@ const SignIn = () => {
                                     color="green"
                                     onClick={onGoogleSighIn}
                                 >
-                                    <Icon icon="google" />
+                                    <Icon icon="google" className="mr-2" />
                                     Continue with Google
                                 </Button>
                             </div>

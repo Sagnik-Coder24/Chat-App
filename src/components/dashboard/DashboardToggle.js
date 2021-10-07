@@ -26,7 +26,7 @@ const DashboardToggle = () => {
     return (
         <>
             <Button block color="blue" onClick={open}>
-                <Icon icon="dashboard" /> Dashboard
+                <Icon icon="dashboard" className="mr-2" /> Dashboard
             </Button>
             <Drawer
                 full={isMobile}
