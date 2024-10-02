@@ -27,7 +27,7 @@ Welcome to the Chat App repository! This project is a real-time messaging applic
 
 1. **Clone the repository**:
     ```bash
-    git clone ""
+    git clone "https://github.com/Sagnik-Coder24/Chat-App"
     cd chat-app
     ```
 
